@@ -68,6 +68,7 @@ this.init = function(dir, tables){
 	for( var i in tables ){
 		self.tables[tables[i]] = new Table(dir, tables[i]);
 	}
+	self.alasql = require('alasql');
 	self.query = function(query){
 		var params = [];
 		var j;
@@ -78,7 +79,7 @@ this.init = function(dir, tables){
 				query = j;
 			}
 		}
-		return require('alasql')( query, params );
+		return self.alasql( query, params );
 	}
 	return self;
 }
