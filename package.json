@@ -1,0 +1,26 @@
+{
+  "name": "nai-db",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "alasql": "^0.2.6"
+  },
+  "author": "nainemom <nainemom@gmail.com>",
+  "license": "MIT",
+  "description": "a collection database using alasql and json for node js",
+  "repository": {
+    "type": "git",
+    "url": "https://nainemom.github.com/nai-db.git"
+  },
+  "keywords": [
+    "nainemom",
+    "database",
+    "json",
+    "alasql"
+  ]
+}
